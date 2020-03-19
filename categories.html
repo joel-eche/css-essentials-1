@@ -30,7 +30,6 @@
       font-weight: normal;
       font-size: 14px;
       line-height: 16px;
-      margin-left: 20px;
       padding-left: 20px;
       margin-right: 20px;
 
@@ -39,7 +38,14 @@
 
     .categories-list li {
       padding: 11px;
+      padding-left: 0px;
       border-bottom: 1px solid #E5E5E5;
+      list-style-position: inside;
+      list-style-image: url('./assets/arrow.png');
+    }
+
+    .categories-list li:last-child {
+      border-bottom: none;
     }
   </style>
   <title>Categories</title>
