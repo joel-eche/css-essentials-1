@@ -6,7 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="styles/categories.css" />
     <style>
-      /* Your work here */
+      section {
+        font-family: Roboto;
+        font-style: normal;
+      }
+      h2 {
+        padding-top: 25px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 21px;
+        color: #171717;
+      }
+
+      ul {
+        margin-top: 6px;
+        list-style: none;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      ul > li {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #666666;
+        padding-top: 19px;
+        padding-bottom: 11px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+
+      ul > li:before {
+        content: "› \0020";
+      }
+
+      ul > li:last-child {
+        border-bottom: none;
+      }
     </style>
     <title>Categories</title>
   </head>
