@@ -5,22 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Post 2</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles/post2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <style>
-      /* Your work here */
+      html {
+        box-sizing: border-box;
+        font-size: 62.5%;
+        /** Reset para REMS - 62.5% = 10px de 16px **/
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+      body {
+        font-family: 'Lora', serif;
+        font-size: 1.6rem;
+        line-height: 1.5;
+      }
+
+      /** Globales **/
+
+      img {
+        max-width: 100%;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      /** Contenido **/
+
+      .txt-sub-one {
+        color: #999999;
+      }
+
+      .txt-sub-name {
+        color: #d0021b;
+        text-decoration: #d0021b;
+      }
+
+      .txt-tipo-italica {
+        font-style: italic;
+      }
     </style>
   </head>
   <body>
     <main>
       <article>
-        <p>Tags: <span>fashion, nails, art, uniq</span></p>
+        <p>Tags: <span class="txt-sub-one">fashion, nails, art, uniq</span></p>
         <img src="assets/post2.png" alt="man on road trip" />
         <h1>A California Couple Design a Master Bed from Scratch</h1>
-        <h3>
-          Post by <span>Mbah Enow</span> / March 19, 2019 / in
-          <span>Fashion</span>
+        <h3 class="txt-sub-one">
+          Post by <a href=""><span class="txt-sub-name">Mbah Enow</span></a> / March 19, 2019 /
+          in
+          <a href=""><span class="txt-sub-name">Fashion</span></a>
         </h3>
-        <p>
+        <p class="txt-sub-one txt-tipo-italica">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem sed ut perspiciatis unde
           omnis iste natus error sit voluptatem accusantium doloremque

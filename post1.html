@@ -5,25 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Blog</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles/post1.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      /* Your work here */
+      html {
+        box-sizing: border-box;
+        font-size: 62.5%;
+        /** Reset para REMS - 62.5% = 10px de 16px **/
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.6rem;
+        line-height: 2;
+      }
+
+      /** Globales **/
+
+      img {
+        max-width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+
+      h1 {
+        font-size: 3.8rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+
+      /** Utilidades **/
+
+      .centrar-texto {
+        text-align: center;
+      }
+
+      .txt-mayuscula {
+        text-transform: uppercase;
+      }
+
+      /** Contenido **/
+
+      .txt-fecha,
+      .txt-descripcion {
+        color: gray;
+      }
+
+      .txt-centrado {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <main>
       <article>
-        <h2>Traveling</h2>
-        <h1>Find your best Europe travelling trip</h1>
-        <h3>Rickie Baroch - <span>June 6, 2019</span></h3>
+        <a href="#traveling" class="txt-mayuscula"
+          ><h2 class="centrar-texto">Traveling</h2></a
+        >
+        <h1 class="centrar-texto">Find your best Europe travelling trip</h1>
+        <h3 class="centrar-texto">
+          Rickie Baroch - <span class="txt-fecha">June 6, 2019</span>
+        </h3>
         <img src="assets/post1.png" alt="man on road trip" />
-        <p>
+        <p class="txt-descripcion txt-centrado">
           This is an example of a WordPress post, you could edit this to put
           information about yourself or your site so readers know where you are
           coming from. You can create as many posts as you like in order to
           share with your readers what is on your mind...
         </p>
-        <a href="">Continue reading</a>
+        <a href="#" class="centrar-texto">Continue reading</a>
       </article>
     </main>
   </body>
