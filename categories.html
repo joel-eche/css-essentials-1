@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="styles/categories.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
-      /* Your work here */
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+      h2 {
+        margin: 20px;
+        font-size: 18px;
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+        padding: 0px 10px;
+        margin: 5px;
+      }
+      li::before {
+        content: "› ";
+      }
+      li {
+        color: #666666;
+        font-size: 14px;
+        padding: 15px;
+        border-bottom: #e5e5e5 solid 1px;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
     </style>
     <title>Categories</title>
   </head>
