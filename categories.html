@@ -7,19 +7,142 @@
     <link rel="stylesheet" type="text/css" href="styles/categories.css" />
     <style>
       /* Your work here */
+      .main{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        position: relative;
+        width: 290px;
+        height: 317px;
+        background: #ffffff;
+      }
+      h2{
+        position: absolute;
+        height: 21px;
+        left: 34.07%;
+        right: 32.96%;
+        top: calc(50% - 21px/2 - 113px);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 117%;
+        color: #171717;
+      }
+      .fashion{
+        position: absolute;
+        height: 16px;
+        left: 14.07%;
+        right: 44.81%;
+        top: calc(50% - 16px/2 - 69.5px);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #666666;
+      }
+      .influ{
+        position: absolute;
+    height: 16px;
+    left: 14.07%;
+    right: 60%;
+    top: calc(50% - 16px/2 - 22.5px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+      }
+      .game{
+        position: absolute;
+    height: 16px;
+    left: 14.07%;
+    right: 40.37%;
+    top: calc(50% - 16px/2 + 24.5px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+      }
+      .photo{
+        position: absolute;
+        height: 16px;
+        left: 14.07%;
+        right: 56.3%;
+        top: calc(50% - 16px/2 + 71.5px);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #666666;
+      }
+      .music{
+        position: absolute;
+        height: 16px;
+        left: 14.07%;
+        right: 71.85%;
+        top: calc(50% - 16px/2 + 114.5px);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #666666;
+      }
+      .line1{
+        position: absolute;
+        left: 7.41%;
+        right: 7.41%;
+        top: 33%;
+        bottom: 66.67%;
+        border: 1px solid #e5e5e5;
+      }
+      .line2{
+        position: absolute;
+        left: 7.41%;
+        right: 7.41%;
+        top: 48.82%;
+        bottom: 58.84%;
+        border: 1px solid #e5e5e5;
+      }
+      .line3{
+        position: absolute;
+        left: 7.41%;
+        right: 7.41%;
+        top: 64.65%;
+        bottom: 35.02%;
+        border: 1px solid #e5e5e5;
+      }
+      .line4{
+        position: absolute;
+        left: 7.41%;
+        right: 7.41%;
+        top: 80.40%;
+        bottom: 19.19%;
+        border: 1px solid #e5e5e5;
+      }
     </style>
     <title>Categories</title>
   </head>
   <body>
-    <main>
+    <main class="main">
       <section>
         <h2>Categories</h2>
         <ul>
-          <li>Fashion & Fitness</li>
-          <li>Influencers</li>
-          <li>Game Development</li>
-          <li>Photography</li>
-          <li>Music</li>
+          <li class="fashion">Fashion & Fitness</li>
+          <div class="line1"></div>
+          <li class="influ">Influencers</li>
+          <div class="line2"></div>
+          <li class="game">Game Development</li>
+          <div class="line3"></div>
+          <li class="photo">Photography</li>
+          <div class="line4"></div>
+          <li class="music">Music</li>
         </ul>
       </section>
     </main>

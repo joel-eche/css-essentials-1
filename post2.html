@@ -8,19 +8,97 @@
     <link rel="stylesheet" type="text/css" href="styles/post2.css" />
     <style>
       /* Your work here */
+    .main{
+      position: static;
+      width: 770px;
+      height: 604px;
+      left: 10px;
+      top: 10px;
+      flex: none;
+      order: 0;
+      align-self: flex-end;
+      margin: 0px 10px;
+    }
+    .rectan{
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      top: 0%;
+      bottom: 0%;
+      background-color: #ffffff;
+    }
+    .tag{
+      position: absolute;
+      height: 18px;
+      left: 2.6%;
+      right: 71.04%;
+      top: calc(50% - 18px/2 - 268px);
+      font-family: 'Merriweather';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      color: #666666;
+    }
+    .im{
+      position: absolute;
+      width: 730px;
+      height: 343px;
+      left: 20px;
+      top: 63px;
+    }
+    .couple{
+      position: absolute;
+      height: 33px;
+      left: 2.6%;
+      right: 20.13%;
+      top: calc(50% - 33px/2 + 145.5px);
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 23px;
+      line-height: 33px;
+      color: #171717;
+    }
+    .post{
+      position: absolute;
+      height: 18px;
+      left: 2.6%;
+      right: 53.64%;
+      top: calc(50% - 18px/2 + 181px);
+      font-family: 'Merriweather';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      color: #999999;
+    }
+    .tex{
+      position: absolute;
+      left: 2.6%;
+      right: 11.04%;
+      top: 83.94%;
+      bottom: 4.14%;
+      font-family: 'Merriweather';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 171%;
+      color: #999999;
+    }
     </style>
   </head>
   <body>
-    <main>
-      <article>
-        <p>Tags: <span>fashion, nails, art, uniq</span></p>
-        <img src="assets/post2.png" alt="man on road trip" />
-        <h1>A California Couple Design a Master Bed from Scratch</h1>
-        <h3>
+    <main class="main">
+      <article class="rectan">
+        <p class="tag">Tags: <span>fashion, nails, art, uniq</span></p>
+        <img class="im" src="assets/post2.png" alt="man on road trip" />
+        <h1 class="couple">A California Couple Design a Master Bed from Scratch</h1>
+        <h3 class="post">
           Post by <span>Mbah Enow</span> / March 19, 2019 / in
           <span>Fashion</span>
         </h3>
-        <p>
+        <p class="tex">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem sed ut perspiciatis unde
           omnis iste natus error sit voluptatem accusantium doloremque
