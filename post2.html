@@ -5,22 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Post 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/post2.css" />
     <style>
-      /* Your work here */
+      * {
+        font-family: Merriweather;
+      }
+      p {
+        height: 18px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #666666;
+      }
+      
+      .tags {
+        color: #333;
+      }
+      .tags span {
+        color: #666666;
+      }
+      
+      h3 {
+        height: 18px;
+        font-size: 14px;
+        line-height: 18px;
+        color: #999999;
+      }
+
+      .highlighted{
+        color: red;
+        text-decoration: underline;
+      }
+
+      .content {
+        font-style: italic;
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+
     </style>
   </head>
   <body>
     <main>
       <article>
-        <p>Tags: <span>fashion, nails, art, uniq</span></p>
+        <p class="tags">Tags: <span>fashion, nails, art, uniq</span></p>
         <img src="assets/post2.png" alt="man on road trip" />
         <h1>A California Couple Design a Master Bed from Scratch</h1>
-        <h3>
-          Post by <span>Mbah Enow</span> / March 19, 2019 / in
-          <span>Fashion</span>
+        <h3>  
+          Post by <span class="highlighted">Mbah Enow</span> / March 19, 2019 / in
+          <span class="highlighted">Fashion</span>
         </h3>
-        <p>
+        <p class="content">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem sed ut perspiciatis unde
           omnis iste natus error sit voluptatem accusantium doloremque
