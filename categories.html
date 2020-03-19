@@ -1,27 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="styles/categories.css" />
-    <style>
-      /* Your work here */
-    </style>
-    <title>Categories</title>
-  </head>
-  <body>
-    <main>
-      <section>
-        <h2>Categories</h2>
-        <ul>
-          <li>Fashion & Fitness</li>
-          <li>Influencers</li>
-          <li>Game Development</li>
-          <li>Photography</li>
-          <li>Music</li>
-        </ul>
-      </section>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="styles/categories.css" />
+  <style>
+    .categories {
+      border: 1px solid #E5E5E5;
+      box-sizing: border-box;
+    }
+
+    .categories > .title {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      padding: 25px;
+      text-align: center;
+
+      color: #171717;
+    }
+
+    .categories-list {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      margin-left: 20px;
+      padding-left: 20px;
+      margin-right: 20px;
+
+      color: #666666;
+    }
+
+    .categories-list li {
+      padding: 11px;
+      border-bottom: 1px solid #E5E5E5;
+    }
+  </style>
+  <title>Categories</title>
+</head>
+
+<body>
+  <main>
+    <section class="categories">
+      <h2 class="title">Categories</h2>
+      <ul class="categories-list">
+        <li>Fashion & Fitness</li>
+        <li>Influencers</li>
+        <li>Game Development</li>
+        <li>Photography</li>
+        <li>Music</li>
+      </ul>
+    </section>
+  </main>
+</body>
+
 </html>
