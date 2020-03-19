@@ -7,6 +7,58 @@
     <link rel="stylesheet" type="text/css" href="styles/categories.css" />
     <style>
       /* Your work here */
+      body{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        color: #666666;
+      }
+      
+      main{
+        box-sizing: border-box;
+      }
+
+      section{
+        padding: 25px 20px 8px;
+        box-sizing: border-box;
+      }
+
+      h2{
+        color: #171717;
+        font-size: 18px;
+        line-height: 1.17;
+        text-align: center;
+      }
+
+      ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      li{
+        border-bottom: 1px solid #e5e5e5;
+        padding: 18px 0 11px;
+        min-height: 44px;
+        box-sizing: border-box;
+        padding-left: 25px;
+        position: relative;
+      }
+      ul li:last-child{
+        border:none;
+      }
+      li::before{
+        left: 0;
+        top: 50%;
+        content: '';
+        position: absolute;
+        height: 4px;
+        width: 4px;
+        border: 1px solid #666666;
+        border-left: none;
+        border-bottom: none;
+        transform: translateY(-25%) rotateZ(45deg)
+      }
+      
     </style>
     <title>Categories</title>
   </head>
