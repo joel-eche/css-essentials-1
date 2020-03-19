@@ -4,9 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="styles/categories.css" />
     <style>
-      /* Your work here */
+      body {
+        font-family: "Roboto";
+      }
+
+      h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        color: #171717;
+        margin: 25px 0;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      li {
+        font-size: 14px;
+        color: #666666;
+        font-weight: normal;
+        margin-bottom: 19px;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 11px;
+        width: 90%;
+      }
+
+      li:nth-last-child(1) {
+        border: none;
+      }
+
+      li:nth-last-child(2) {
+        margin-bottom: 15px;
+      }
+
+      ul li:before {
+        content: ">";
+        padding-right: 15px;
+      }
     </style>
     <title>Categories</title>
   </head>
