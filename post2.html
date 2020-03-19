@@ -6,21 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Post 2</title>
     <link rel="stylesheet" type="text/css" href="styles/post2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Merriweather:400,400i&display=swap" rel="stylesheet">
     <style>
-      /* Your work here */
+      #main{
+        position: absolute;
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: normal;
+      }
+      .cabecera{
+        height: 18px;
+        left: 2.6%;
+        right: 71.04%;
+        top: calc(50% - 18px/2 - 268px);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 18px;
+
+        color: #666666;
+      }
+      .cabecera span{
+        font-weight: normal;
+      }
+
+      .article img{
+        left: 2.6%;
+        right: 2.6%;
+        top: -6.62%;
+        bottom: 27.63%;
+      }
+      .article h1{
+        height: 33px;
+        left: 2.6%;
+        right: 20.13%;
+        top: calc(50% - 33px/2 + 145.5px);
+
+        font-family: Lora;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 33px;
+
+        color: #171717;
+      }
+      .subtitle{
+        height: 18px;
+        left: 2.6%;
+        right: 53.64%;
+        top: calc(50% - 18px/2 + 181px);
+
+        font-size: 14px;
+        line-height: 18px;
+
+        color: #999999;
+      }
+      .texto{
+        left: 2.6%;
+        right: 11.04%;
+        top: 83.94%;
+        bottom: 4.14%;
+
+        font-style: italic;
+        font-size: 14px;
+        line-height: 24px;
+
+        color: #999999;
+      }
+      .subtitle span{
+        color: red;
+        text-decoration: underline;
+      }
+
     </style>
   </head>
   <body>
-    <main>
-      <article>
-        <p>Tags: <span>fashion, nails, art, uniq</span></p>
+    <main id="main">
+      <article class="article">
+        <p class="cabecera">Tags: <span>fashion, nails, art, uniq</span></p>
         <img src="assets/post2.png" alt="man on road trip" />
         <h1>A California Couple Design a Master Bed from Scratch</h1>
-        <h3>
+        <h3 class="subtitle">
           Post by <span>Mbah Enow</span> / March 19, 2019 / in
           <span>Fashion</span>
         </h3>
-        <p>
+        <p class="texto">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem sed ut perspiciatis unde
           omnis iste natus error sit voluptatem accusantium doloremque
