@@ -5,8 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="styles/categories.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
-      /* Your work here */
+      h2{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        position:relative;
+        top:15px;
+        font-size: 20px;
+      }
+      .lista {
+        list-style-type: none;
+        color: #666666;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        line-height: 50px;
+        font-size: 16px;
+        position: relative;
+        top:30px
+
+      }
+      section {
+        width: 100%;
+      }
+      hr {
+        border: 1px solid #E5E5E5;
+        position: absolute;
+        width: 90%;
+        left: 15px;
+        right: 15px;
+      }
+     
+     svg {
+       position: relative;
+       left: -20px;
+     }
+
+
+
     </style>
     <title>Categories</title>
   </head>
@@ -14,13 +50,24 @@
     <main>
       <section>
         <h2>Categories</h2>
-        <ul>
-          <li>Fashion & Fitness</li>
-          <li>Influencers</li>
-          <li>Game Development</li>
-          <li>Photography</li>
-          <li>Music</li>
-        </ul>
+        <ul class="lista">
+          <li><svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 7L4 4L1 1" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>Fashion & Fitness<hr></li>
+          
+          <li><svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 7L4 4L1 1" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>Influencers<hr></li>
+          <li><svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 7L4 4L1 1" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>Game Development<hr></li>
+          <li><svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 7L4 4L1 1" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>Photography<hr></li>
+          <li>Music<hr></li>
+          </ul>
+        </svg>
+          
       </section>
     </main>
   </body>
