@@ -5,16 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/categories.css" />
   <style>
-    .categories {
+    * {
+      font-family: Roboto;
+      font-style: normal;
+    }
+    section {
       border: 1px solid #E5E5E5;
       box-sizing: border-box;
     }
 
-    .categories > .title {
-      font-family: Roboto;
-      font-style: normal;
+    section > h2 {
       font-weight: bold;
       font-size: 18px;
       line-height: 21px;
@@ -24,9 +27,7 @@
       color: #171717;
     }
 
-    .categories-list {
-      font-family: Roboto;
-      font-style: normal;
+    section > ul {
       font-weight: normal;
       font-size: 14px;
       line-height: 16px;
@@ -36,7 +37,7 @@
       color: #666666;
     }
 
-    .categories-list li {
+    section > ul li {
       padding: 11px;
       padding-left: 0px;
       border-bottom: 1px solid #E5E5E5;
@@ -44,7 +45,7 @@
       list-style-image: url('./assets/arrow.png');
     }
 
-    .categories-list li:last-child {
+    section > ul li:last-child {
       border-bottom: none;
     }
   </style>
@@ -53,9 +54,9 @@
 
 <body>
   <main>
-    <section class="categories">
-      <h2 class="title">Categories</h2>
-      <ul class="categories-list">
+    <section>
+      <h2>Categories</h2>
+      <ul>
         <li>Fashion & Fitness</li>
         <li>Influencers</li>
         <li>Game Development</li>

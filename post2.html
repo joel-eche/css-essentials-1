@@ -6,21 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Post 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/post2.css" />
   <style>
-    .tags {
+    p:first-child {
       font-family: Merriweather;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
       line-height: 18px;
-
-      color: #666666;
+      color: #555555;
     }
 
-    .photo {}
+    p:first-child > span {
+      color: #666666;
+      opacity: 0.7;
+    }
 
-    .title {
+    h1 {
       font-family: Lora;
       font-style: normal;
       font-weight: bold;
@@ -31,7 +35,7 @@
 
     }
 
-    .subtitle {
+    h3 {
       font-family: Merriweather;
       font-style: normal;
       font-weight: normal;
@@ -41,7 +45,7 @@
       color: #999999;
     }
 
-    .subtitle .relevant {
+    h3 span {
       font-family: Merriweather;
       font-style: normal;
       font-weight: normal;
@@ -53,13 +57,12 @@
       color: #D0021B;
     }
 
-    .content {
+    p:last-child {
       font-family: Merriweather;
       font-style: italic;
       font-weight: normal;
       font-size: 14px;
       line-height: 24px;
-
       color: #999999;
     }
   </style>
@@ -68,14 +71,14 @@
 <body>
   <main>
     <article>
-      <p class="tags">Tags: <span>fashion, nails, art, uniq</span></p>
-      <img class="photo" src="assets/post2.png" alt="man on road trip" />
-      <h1 class="title">A California Couple Design a Master Bed from Scratch</h1>
-      <h3 class="subtitle">
-        Post by <span class="relevant">Mbah Enow</span> / March 19, 2019 / in
-        <span class="relevant">Fashion</span>
+      <p>Tags: <span>fashion, nails, art, uniq</span></p>
+      <img src="assets/post2.png" alt="man on road trip" />
+      <h1>A California Couple Design a Master Bed from Scratch</h1>
+      <h3>
+        Post by <span>Mbah Enow</span> / March 19, 2019 / in
+        <span>Fashion</span>
       </h3>
-      <p class="content">
+      <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem sed ut perspiciatis unde
         omnis iste natus error sit voluptatem accusantium doloremque
