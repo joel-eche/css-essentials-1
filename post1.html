@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Blog</title>
-    <link rel="stylesheet" type="text/css" href="styles/post1.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
       /* Your work here */
+      /*
       .travelling{
         position: absolute;
         height: 16px;
@@ -83,22 +84,81 @@
         line-height: 94%;
         color: #4A90E2;
       }
+      */
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto';
+      }
+      body{
+        background-color: #E5E5E5;
+        margin-top: 0;
+      }
+      main{
+        background-color: #ffffff;
+        width: 780px;
+        margin: 0 auto;
+      }
+      h2{
+        font-size: 14px;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 11px;
+        color: #4A90E2;
+        text-transform: uppercase;
+        font-weight: lighter;
+      }
+      h1{
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+      }
+      h3{
+        margin-top: 16px;
+        margin-bottom: 26px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      img{
+        width: 770px;
+        height: 445px;
+        display:block;
+        margin:auto;
+      }
+      h3 span{
+        color:  #666666;
+      }
+      p{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-size: 16px;
+        text-align: center;
+        color: #666666;
+      }
+      article a{
+        color: #4A90E2;
+        text-decoration: none;
+        padding-bottom: 10px;
+        margin-left: 330px;
+      }
     </style>
   </head>
   <body>
     <main>
       <article>
-        <h2 class="travelling">Traveling</h2>
-        <h1 class="main">Find your best Europe travelling trip</h1>
-        <h3 class="tercero">Rickie Baroch - <span>June 6, 2019</span></h3>
-        <img class="img" src="assets/post1.png" alt="man on road trip" />
-        <p class="example">
+        <h2>Travelling</h2>
+        <h1>Find your best Europe travelling trip</h1>
+        <h3>Rickie Baroch - <span>June 6, 2019</span></h3>
+        <img src="assets/post1.png" alt="man on road trip" />
+        <p>
           This is an example of a WordPress post, you could edit this to put
           information about yourself or your site so readers know where you are
           coming from. You can create as many posts as you like in order to
           share with your readers what is on your mind...
         </p>
-        <a class="reading" href="">Continue reading</a>
+        <a href="">Continue reading</a>
       </article>
     </main>
   </body>
