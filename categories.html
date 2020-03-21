@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="styles/categories.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
       /* Your work here */
+      /* 
       .main{
         display: flex;
         flex-direction: column;
@@ -126,23 +128,46 @@
         bottom: 19.19%;
         border: 1px solid #e5e5e5;
       }
+      */
+      *{
+        font-family: 'Roboto';
+      }
+      h2{
+        text-align: center;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 6px;
+        font-size: 18px;
+      }
+      li{
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 11px;
+        margin-top: 19px;
+        list-style-image: url(assets/Path.png);
+
+      }
+      div{
+        border: 1px solid #e5e5e5;
+        margin-right: 20px;
+      }
     </style>
     <title>Categories</title>
   </head>
   <body>
-    <main class="main">
+    <main>
       <section>
         <h2>Categories</h2>
         <ul>
-          <li class="fashion">Fashion & Fitness</li>
+          <li>Fashion & Fitness</li>
           <div class="line1"></div>
-          <li class="influ">Influencers</li>
+          <li>Influencers</li>
           <div class="line2"></div>
-          <li class="game">Game Development</li>
+          <li>Game Development</li>
           <div class="line3"></div>
-          <li class="photo">Photography</li>
+          <li>Photography</li>
           <div class="line4"></div>
-          <li class="music">Music</li>
+          <li>Music</li>
         </ul>
       </section>
     </main>
